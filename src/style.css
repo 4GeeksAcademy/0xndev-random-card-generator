@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+}
+
+#top {
+  font-size: 80px;
+  margin-left: 20px;
+}
+
+#bot {
+  font-size: 80px;
+  rotate: 180deg;
+  margin-right: 20px;
+}
+
+.numbers {
+  font-size: 6rem;
+  font-family: "Times New Roman", Times, serif;
+}
